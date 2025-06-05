@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Sprout, Search, Star, MapPin } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { cn } from "@/lib/utils";
 
 interface EcoExperience {
   id: string;
